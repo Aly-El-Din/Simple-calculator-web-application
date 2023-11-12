@@ -1,0 +1,11 @@
+.Number{
+    position: relative;
+    top:300px;
+    left:300px;
+}
+button{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    font-size: 18px;
+}

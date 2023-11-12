@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+    <div class="Number">
+        <div class="screen">
+            <textarea id="area" readonly></textarea>
+        </div>
+        <div class="row1">
+            <button @click="appendToScreen(1)">1</button>
+            <button @click="appendToScreen(2)">2</button>
+            <button @click="appendToScreen(3)">3</button>
+            <button @click="appendToScreen(X)">X</button>
+        </div>
+        <div class="row2">
+            <button @click="appendToScreen(4)">4</button>
+            <button @click="appendToScreen(5)">5</button>
+            <button @click="appendToScreen(6)">6</button>
+            <button>-</button>
+        </div>
+        <div class="row3">
+            <button @click="appendToScreen(7)">7</button>
+            <button @click="appendToScreen(8)">8</button>
+            <button @click="appendToScreen(9)">9</button>
+            <button>+</button>
+        </div>
+        <div class="row4">
+            <button>+/-</button>
+            <button @click="appendToScreen(0)">0</button>
+            <button>.</button>
+            <button>=</button> 
+        </div>
+
+    </div>
+    <script src="vue.js"></script>
+    <script src="js1.js"></script>
+</body>
+</html>
